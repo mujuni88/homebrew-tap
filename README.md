@@ -8,7 +8,8 @@ Install:
 
 ```bash
 brew tap mujuni88/tap
-brew uninstall --cask vial
+brew uninstall --cask vial || true
+brew uninstall --cask vial-apple-silicon || true
 brew install --cask vial-apple-silicon
 ```
 
