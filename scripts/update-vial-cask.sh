@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-VERSION="${VERSION:-${1:-0.7.5-arm64.2}}"
+VERSION="${VERSION:-${1:-0.7.5-arm64.3}}"
 REPO="${REPO:-${2:-mujuni88/vial-gui}}"
 ASSET="${ASSET:-${3:-Vial-0.7.5-arm64.dmg}}"
 URL="https://github.com/${REPO}/releases/download/v${VERSION}/${ASSET}"

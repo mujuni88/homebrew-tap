@@ -1,8 +1,8 @@
 cask "vial-apple-silicon" do
-  version "0.7.5-arm64.2"
-  sha256 "5bcf280a5c3bb7e67d51657ea8a4de1da49a0b7a709c3d799b345929e2432922"
+  version "0.7.5-arm64.3"
+  sha256 "18c804dd57d6705b20f1482f67f97f636f9ecb78c5d9fb859661929db7dd968e"
 
-  url "https://github.com/mujuni88/vial-gui/releases/download/v0.7.5-arm64.2/Vial-0.7.5-arm64.dmg",
+  url "https://github.com/mujuni88/vial-gui/releases/download/v0.7.5-arm64.3/Vial-0.7.5-arm64.dmg",
       verified: "github.com/mujuni88/vial-gui/"
   name "Vial Apple Silicon"
   desc "Native Apple Silicon build of the Vial keyboard configurator"
