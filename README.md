@@ -11,6 +11,7 @@ brew tap mujuni88/tap
 brew uninstall --cask vial || true
 brew uninstall --cask vial-apple-silicon || true
 brew install --cask vial-apple-silicon
+xattr -dr com.apple.quarantine ~/Applications/Vial.app
 ```
 
 Verify:
